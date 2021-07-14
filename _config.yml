@@ -1,4 +1,5 @@
 # SITE CONFIGURATION
-baseurl: ""
+#baseurl: ""
 url: "https://rsrgrimm.github.io"
 theme: jekyll-theme-minimal
+exclude: [vendor]
