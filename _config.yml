@@ -2,4 +2,4 @@
 #baseurl: ""
 url: "https://rsrgrimm.github.io"
 theme: jekyll-theme-minimal
-exclude: [vendor]
+exclude: ['vendor', 'assets/', 'Gemfile', 'Gemfile.lock', 'README.md']
