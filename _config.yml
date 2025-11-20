@@ -1,5 +1,18 @@
 # SITE CONFIGURATION
-#baseurl: ""
+title: "Reed Grimm - Data Science Portfolio"
+description: "Data science and analytics projects"
+theme: null
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+
+# Basic config
 url: "https://rsrgrimm.github.io"
-theme: jekyll-theme-minimal
-exclude: ['vendor', 'assets/', 'Gemfile', 'Gemfile.lock', 'README.md']
+baseurl: ""
