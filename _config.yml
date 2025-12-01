@@ -1,6 +1,8 @@
 # SITE CONFIGURATION
 title: "Reed Grimm - Data Science Portfolio"
 description: "Data science and analytics projects"
+minimal_mistakes_skin: "air"
+
 theme: null
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
@@ -17,4 +19,45 @@ markdown: kramdown
 url: "https://rsrgrimm.github.io"
 baseurl: ""
 
-minimal_mistakes_skin: "air"
+
+author:
+  name: "Reed Grimm"
+  avatar: "/assets/img/avatar.jpg"
+  bio: "Data scientist focusing on ML, analytics, and visualization."
+
+# Author profile info
+author:
+  name: "Reed Grimm"
+  avatar: "/assets/img/avatar.jpg"
+  bio: "Data scientist specializing in analytics, machine learning, and data visualization."
+  location: "Raleigh, NC, USA"
+  email: "rsrg.public@gmail.com"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/rsrgrimm"
+      icon: "fab fa-github"
+    - label: "LinkedIn"
+      url: "https://linkedin.com/in/rsrgrimm"
+      icon: "fab fa-linkedin"
+
+# Navigation
+include:
+  - _pages
+
+defaults:
+  # Default layout for pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+  # Default layout for projects
+  - scope:
+      path: "_projects"
+      type: projects
+    values:
+      layout: single
+      author_profile: false
+      toc: true
