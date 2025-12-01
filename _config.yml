@@ -60,3 +60,8 @@ defaults:
       layout: single
       author_profile: false
       toc: true
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
