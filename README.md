@@ -1,3 +1,3 @@
 # rsrgrimm.github.io
 
-Personal website for Reed Grimm, featuring my data science portfolio.
+Personal website for me, Reed Grimm, featuring my data science portfolio.

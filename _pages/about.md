@@ -3,13 +3,12 @@ permalink: /about/
 title: "About Me"
 ---
 
-I’m a data scientist with experience in machine learning, analytics, and statistical modeling.  
-I enjoy solving real-world problems using data, building reproducible workflows, and communicating insights clearly.
+I’m Reed Grimm, a data scientist specializing in machine learning with experience in bioinformatics and NLP.
 
 I work with:
 
 - Python (Pandas, NumPy, Scikit-learn)
-- Machine learning & predictive modeling
+- Machine learning & predictive modeling (PyTorch, TensorFlow, Keras)
 - SQL & relational databases
 - Data visualization (Matplotlib, Seaborn, Plotly)
 - Jupyter Notebooks

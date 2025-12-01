@@ -7,6 +7,6 @@ entries_layout: grid
 classes: wide
 ---
 
-A collection of my favorite data science and analytics projects.
+A collection of recent data science and analysis projects.
 
-{% include gallery caption="Project Gallery" collection="projects" %}
+<!-- {% include gallery caption="Project Gallery" collection="projects" %} -->

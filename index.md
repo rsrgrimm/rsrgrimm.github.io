@@ -4,5 +4,4 @@ title: "Home"
 author_profile: true
 ---
 
-Welcome to my data science portfolio.  
-Here you’ll find projects in machine learning, data analytics, and visualization.
+I'm Reed Grimm. Welcome to my site, which includes information about me and a portfolio of some of my recent data science work.

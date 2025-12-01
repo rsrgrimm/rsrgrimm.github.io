@@ -21,7 +21,7 @@ I compare baseline linear models with tuned XGBoost models.
 - Most important features were: latitude, longitude, and square footage.
 
 ## 📁 Code
-👉 [View the repository](https://github.com/yourusername/housing-xgboost)
+[View the repository](https://github.com/yourusername/housing-xgboost)
 
 ## 📝 Methodology
 1. Cleaned dataset (null imputation, outlier removal)  
