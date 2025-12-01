@@ -16,3 +16,5 @@ markdown: kramdown
 # Basic config
 url: "https://rsrgrimm.github.io"
 baseurl: ""
+
+minimal_mistakes_skin: "air"
