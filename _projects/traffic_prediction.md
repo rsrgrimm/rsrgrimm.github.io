@@ -7,7 +7,7 @@ layout: single
 classes: wide
 ---
 
-## 📌 Overview
+## Overview
 This project explores short-term traffic forecasting using a deep learning model based on Long Short-Term Memory (LSTM) networks. The goal was to predict **traffic volume**, **average speed**, and **vehicle density** using three years of historical highway sensor data enriched with contextual features such as weather conditions, road surface status, and local holidays.
 
 Traffic forecasting is a challenging multivariate time-series problem involving temporal dependencies, cyclic patterns, and external environmental influences. This project demonstrates how LSTM-based architectures can effectively capture these relationships to produce accurate next-step predictions.
@@ -48,6 +48,9 @@ The dataset exhibited clear seasonal and weekly patterns:
 - Higher volumes near commute hours  
 - Reduced speed under adverse weather  
 - Increased density during holidays and events  
+
+![Traffic Daily Average](/assets/traffic_prediction/average_day_traffic.png)
+*Visualization of average daily traffic volume.*
 
 Visual inspection confirmed that traffic metrics display strong **temporal autocorrelation**, making them suitable for recurrent architectures like LSTMs.
 
